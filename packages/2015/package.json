@@ -1,0 +1,10 @@
+{
+  "name": "@aoc/2015",
+  "version": "1.0.0",
+  "description": "2015",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "codito",
+  "license": "UNLICENSED"
+}

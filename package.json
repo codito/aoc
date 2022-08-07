@@ -1,0 +1,43 @@
+{
+  "name": "aoc",
+  "version": "1.0.0",
+  "description": "AOC",
+  "scripts": {
+    "lint": "eslint packages/**/*.{ts,tsx}",
+    "lint:fix": "eslint --fix 'packages/**/*.{ts,tsx}'",
+    "format": "prettier --write 'packages/**/*.{ts,tsx,css,md,json}'",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codito/aoc.git"
+  },
+  "keywords": [
+    "aoc"
+  ],
+  "author": "codito",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codito/aoc/issues"
+  },
+  "homepage": "https://github.com/codito/aoc#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@types/node": "^18.6.4",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
